@@ -64,10 +64,12 @@ void Shape::move(double dx, double dy)
 
 void Shape::destroy()
 {
+    cout<< "destroy() called for shape: " << shapeName<< "\n\n" << endl;
     delete [] shapeName;
 }
 
 Shape::~Shape()
 {
+        cout<< "Called Shape destructor: " << shapeName<< endl;
     destroy();
 }

@@ -32,7 +32,7 @@ Square& Square:: operator= (const Square& rhs) {
 }
 
 Square::~Square() {
-    cout << "Called Square Destructor" << endl;
+    cout << "Called Square Destructor: " << shapeName << endl;
     
 }
 

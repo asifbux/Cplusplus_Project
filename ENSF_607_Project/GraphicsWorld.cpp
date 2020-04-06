@@ -12,7 +12,7 @@
 #include "Rectangle.hpp"
 using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
     // insert code here...
 //    Point *p1 = new Point(10.0 , 5.0);
 //    cout<< p1->counter() << endl;
@@ -25,8 +25,8 @@ int main(int argc, const char * argv[]) {
 //    cout << "printing s3" << endl;
 //    s3->display();
     
-    cout << "\nThis program has been written by: student name(s)." ;
-cout << "\nSubmitted at: 11:00 pm, February 3 , 2008\n";
+    cout << "\nThis program has been written by: Asif Bux & Vaibhav Jadhav." ;
+cout << "\nSubmitted at: 11:00 pm, April 20 , 2020\n";
 cout << "\nTesting Functions in class Point:" <<endl;
 Point m (6, 8);
 Point n (6,8);
@@ -55,8 +55,12 @@ Rectangle rec1 = a;
 rec1.display();
     cout << "\nTesting assignment operator in class Rectangle:" <<endl;
 Rectangle rec2 (3, 4, 11, 7, "RECTANGLE rec2");
-rec2 = a;
+//rec2 = a;
 rec2.display();
+    cout << "\nTesting assignment operator in class Rectangle, where lhs = rhs:" <<endl;
+    rec2 = rec2;
+    rec2.display();
+    
 cout << "\nTesting Functions in class Circle:" <<endl;
 //Circle c (3, 5, 9, "CIRCLE C");
 //c.display();

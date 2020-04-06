@@ -6,22 +6,6 @@
 //  Copyright © 2020 Asif. All rights reserved.
 //
 
-/* This class is supposed to represent a point in a Cartesian plane. It should have three data
-members: x, and y coordinates and an automatically created id number. The first
-object’s id number should be 1001, second one should 1002, and so on. Point should
-have at least the following member functions:
-- display - that displays x, and y coordinates of the point in the following format:
-X-coordinate:
-Y-coordinate:
-- A constructor that initializes its data members.
-Note: You are not supposed to define a default constructor in this class. Automatic
-calls to the default constructor will hide some of the important aspects of this
-assignment (marks will be deducted if you define a default constructor this class).
-- Access functions get and set, for all data member as needed.
-- Function counter()that returns the number of objects of class Point.
-- Two distance functions that return the distance between two points. One of the
-two must be a static function.
-*/
 
 #include "Point.hpp"
 #include <stdlib.h>
@@ -110,6 +94,6 @@ Point::Point(const Point& source)
 }
 
 void Point::destroy(){
-    cout<< "destroy of Point" << endl;
+    
 }
 

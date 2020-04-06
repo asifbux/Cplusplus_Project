@@ -23,7 +23,7 @@ Rectangle::Rectangle// double check
 Rectangle::~Rectangle()
 {
     // double check
-    cout << "Called Rectangle destructor" <<shapeName << endl;
+    cout << "Called Rectangle destructor: " <<shapeName << endl;
 }
 double Rectangle::area(){
     return side_b* side_a;
