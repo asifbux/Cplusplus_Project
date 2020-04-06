@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9A70FDCD243833CE007446B2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A70FDCC243833CE007446B2 /* main.cpp */; };
+		9A70FDD524383A4C007446B2 /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A70FDD324383A4C007446B2 /* Point.cpp */; };
+		9AEFDB06243A7ACA00B83304 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB04243A7ACA00B83304 /* Shape.cpp */; };
+		9AEFDB09243A9BDB00B83304 /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB07243A9BDB00B83304 /* Square.cpp */; };
+		9AEFDB0C243AAD4900B83304 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB0A243AAD4900B83304 /* Rectangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		9A70FDC9243833CE007446B2 /* ENSF_607_Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ENSF_607_Project; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A70FDCC243833CE007446B2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9A70FDD324383A4C007446B2 /* Point.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Point.cpp; sourceTree = "<group>"; };
+		9A70FDD424383A4C007446B2 /* Point.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Point.hpp; sourceTree = "<group>"; };
+		9AEFDB04243A7ACA00B83304 /* Shape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		9AEFDB05243A7ACA00B83304 /* Shape.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shape.hpp; sourceTree = "<group>"; };
+		9AEFDB07243A9BDB00B83304 /* Square.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Square.cpp; sourceTree = "<group>"; };
+		9AEFDB08243A9BDB00B83304 /* Square.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Square.hpp; sourceTree = "<group>"; };
+		9AEFDB0A243AAD4900B83304 /* Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		9AEFDB0B243AAD4900B83304 /* Rectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rectangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				9A70FDCC243833CE007446B2 /* main.cpp */,
+				9A70FDD324383A4C007446B2 /* Point.cpp */,
+				9A70FDD424383A4C007446B2 /* Point.hpp */,
+				9AEFDB04243A7ACA00B83304 /* Shape.cpp */,
+				9AEFDB05243A7ACA00B83304 /* Shape.hpp */,
+				9AEFDB07243A9BDB00B83304 /* Square.cpp */,
+				9AEFDB08243A9BDB00B83304 /* Square.hpp */,
+				9AEFDB0A243AAD4900B83304 /* Rectangle.cpp */,
+				9AEFDB0B243AAD4900B83304 /* Rectangle.hpp */,
 			);
 			path = ENSF_607_Project;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEFDB09243A9BDB00B83304 /* Square.cpp in Sources */,
+				9A70FDD524383A4C007446B2 /* Point.cpp in Sources */,
 				9A70FDCD243833CE007446B2 /* main.cpp in Sources */,
+				9AEFDB0C243AAD4900B83304 /* Rectangle.cpp in Sources */,
+				9AEFDB06243A7ACA00B83304 /* Shape.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
