@@ -16,10 +16,10 @@ Square::Square(double x, double y, double theSide, const char* name): Shape(x, y
     
 }
 
-Square::Square(const Square& source): Shape(source) // double check if shape(source) is correct
-{
-    side_a = source.side_a;
-}
+//Square::Square(const Square& source): Shape(source) // double check if shape(source) is correct
+//{
+//    side_a = source.side_a;
+//}
 
 Square& Square:: operator= (const Square& rhs) {
     if(this != &rhs)

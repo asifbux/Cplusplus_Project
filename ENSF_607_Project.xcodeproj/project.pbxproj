@@ -12,6 +12,8 @@
 		9AEFDB06243A7ACA00B83304 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB04243A7ACA00B83304 /* Shape.cpp */; };
 		9AEFDB09243A9BDB00B83304 /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB07243A9BDB00B83304 /* Square.cpp */; };
 		9AEFDB0C243AAD4900B83304 /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB0A243AAD4900B83304 /* Rectangle.cpp */; };
+		9AEFDB0F243BD85900B83304 /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB0D243BD85900B83304 /* Circle.cpp */; };
+		9AEFDB12243BD86900B83304 /* CornerCut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AEFDB10243BD86900B83304 /* CornerCut.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		9AEFDB08243A9BDB00B83304 /* Square.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Square.hpp; sourceTree = "<group>"; };
 		9AEFDB0A243AAD4900B83304 /* Rectangle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
 		9AEFDB0B243AAD4900B83304 /* Rectangle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rectangle.hpp; sourceTree = "<group>"; };
+		9AEFDB0D243BD85900B83304 /* Circle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		9AEFDB0E243BD85900B83304 /* Circle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Circle.hpp; sourceTree = "<group>"; };
+		9AEFDB10243BD86900B83304 /* CornerCut.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CornerCut.cpp; sourceTree = "<group>"; };
+		9AEFDB11243BD86900B83304 /* CornerCut.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CornerCut.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				9A70FDCC243833CE007446B2 /* GraphicsWorld.cpp */,
 				9A70FDD324383A4C007446B2 /* Point.cpp */,
 				9A70FDD424383A4C007446B2 /* Point.hpp */,
+				9AEFDB0D243BD85900B83304 /* Circle.cpp */,
+				9AEFDB0E243BD85900B83304 /* Circle.hpp */,
+				9AEFDB10243BD86900B83304 /* CornerCut.cpp */,
+				9AEFDB11243BD86900B83304 /* CornerCut.hpp */,
 				9AEFDB04243A7ACA00B83304 /* Shape.cpp */,
 				9AEFDB05243A7ACA00B83304 /* Shape.hpp */,
 				9AEFDB07243A9BDB00B83304 /* Square.cpp */,
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AEFDB09243A9BDB00B83304 /* Square.cpp in Sources */,
+				9AEFDB0F243BD85900B83304 /* Circle.cpp in Sources */,
+				9AEFDB12243BD86900B83304 /* CornerCut.cpp in Sources */,
 				9A70FDD524383A4C007446B2 /* Point.cpp in Sources */,
 				9A70FDCD243833CE007446B2 /* GraphicsWorld.cpp in Sources */,
 				9AEFDB0C243AAD4900B83304 /* Rectangle.cpp in Sources */,

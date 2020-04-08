@@ -17,7 +17,7 @@ protected:
     double side_b;
 public:
     Rectangle(double x, double y, double side_a, double side_b, const char* name);
-    Rectangle(const Rectangle& rhs);
+    //Rectangle(const Rectangle& rhs);
     virtual ~Rectangle();
     double area();
     double perimeter();

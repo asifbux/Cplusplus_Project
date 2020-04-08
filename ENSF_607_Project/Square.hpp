@@ -18,7 +18,7 @@ protected:
     double side_a; // double check
 public:
     Square(double x, double y, double theSide, const char* name);
-    Square(const Square& source);
+//    Square(const Square& source);
     Square& operator=(const Square& rhs);
     virtual ~Square(); // double check
     double area() override;

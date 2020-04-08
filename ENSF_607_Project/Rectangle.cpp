@@ -15,11 +15,11 @@ Rectangle::Rectangle(double x, double y, double side_a, double side_b, const cha
 {
     this->side_b = side_b;
 }
-Rectangle::Rectangle// double check
- (const Rectangle& rhs): Square(rhs), Shape(rhs)
-{
-    
-}
+//Rectangle::Rectangle// double check
+// (const Rectangle& rhs): Square(rhs), Shape(rhs)
+//{
+//
+//}
 Rectangle::~Rectangle()
 {
     // double check
